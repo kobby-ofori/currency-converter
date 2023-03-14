@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+  <title>Currency-Converter</title>
+  <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+  <div class="container">
+    <h2>CURRENCY-CONVERTER</h2>
+    <!-- first currency -->
+    <div class="currency-container">
+      <select class="select" id="currency-first">
+        <option value="GHS">GHS</option>
+        <option value="USD" selected>USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+      </select>
+      <input type="number" class="input" id="worth-first" 
+        value="1" min="0">
+    </div>
+    <!-- second currency -->
+    <div class="currency-container">
+      <select class="select" id="currency-second">
+        <option value="GHS" selected>GHS</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+      </select>
+      <input type="number" class="input" id="worth-second" disabled>
+    </div>
+    <p class="exchange-rate" id="exchange-rate">1 USD = 12.80 GHS</p>
+  </div>
+
+  <script src="currency.js"></script>
+</body>
+</html>

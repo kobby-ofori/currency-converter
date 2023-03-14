@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.currency-container {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select {
+  padding: 5px;
+}
+
